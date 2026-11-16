@@ -1,13 +1,12 @@
-# 100 Mexicanos Dijeron - Juego Editable
+# Juego de encuesta editable
 
-Proyecto listo para GitHub Pages. No requiere Node.js ni compilacion.
+Version lista para GitHub Pages, sin Node.js ni compilacion.
 
-## Publicar
-1. Crea un repositorio en GitHub.
-2. Sube `index.html` a la raiz del repositorio.
-3. Ve a Settings > Pages.
-4. En Source selecciona Deploy from a branch.
-5. Selecciona la rama `main` y la carpeta `/ (root)`.
-6. Guarda y espera a que GitHub Pages publique el sitio.
+## Actualizar el sitio
+1. En GitHub abre el repositorio.
+2. Abre `index.html` y usa el icono de editar, o elimina/reemplaza los archivos mediante Add file > Upload files.
+3. Sube este nuevo `index.html` y `README.md` a la raiz.
+4. Confirma con Commit changes.
+5. GitHub Pages actualizara el sitio en unos minutos.
 
-Las preguntas editadas se guardan en localStorage del navegador. El juego tambien permite exportar/importar las preguntas como JSON.
+Incluye titulo y subtitulo editables, sonidos, cierre automatico de respuestas al cambiar de ronda, ronda final editable, meta configurable, guardado local e importacion/exportacion JSON.
